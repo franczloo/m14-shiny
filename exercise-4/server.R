@@ -22,12 +22,11 @@ shinyServer(function(input, output) {
       return(BuildMap(joined.data, input$mapvar))
   }) 
   
-<<<<<<< HEAD
-  # Create a `scatter` property on your `output` object. That property shoudl be a `renderPlotly` object that returns a scatterplot (`BuildScatter`)
-  
-=======
+# Create a `scatter` property on your `output` object. That property shoudl be a `renderPlotly` object that returns a scatterplot (`BuildScatter`)
+
+
   output$scatter <- renderPlotly({
     return(BuildScatter(joined.data, input$search))
   })
->>>>>>> complete
+
 })
