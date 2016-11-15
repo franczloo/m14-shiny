@@ -20,26 +20,6 @@ shinyUI(navbarPage('Electoral College',
                                 plotlyOutput('map')
                               )
                             )
-
-                   ) 
-                   
-                   # Create a tabPanel to show your scatter plot
-                   
-                            # Add a titlePanel to your tab
-                   
-                            
-                            # Create a sidebar layout for this tab (page)
-                   
-                              
-                              # Create a sidebarPanel for your controls
-                   
-                                
-                                # Make a textInput widget for searching for a state in your scatter plot
-                   
-                              
-                              # Create a main panel, in which you should display your plotly Scatter plot
-                              
-
                    ), 
                    
                    # Create a tabPanel to show your scatter plot
@@ -63,5 +43,4 @@ shinyUI(navbarPage('Electoral College',
                               )
                             )
                    )
-
 ))
